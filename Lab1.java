@@ -15,8 +15,11 @@ public class Lab1 {
        }else{ 
             System.out.println("Odd");
        }
-       }
+       
 
        //Exercise 4 
-       for (int i = 0;)
+       for (int i = 0; i <= 4; i++) {
+            System.out.println(i);
+       }
     }
+}
