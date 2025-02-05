@@ -22,4 +22,14 @@ public class Lab1 {
             System.out.println(i);
        }
     }
+    
+    //Exercise 5
+    public class Main{
+       public void greet(String name){
+            System.out.println("Hello,"+name);
+        }
+        public static void main(String[] args) {
+            greet("Alice");
+        }
+    }
 }
