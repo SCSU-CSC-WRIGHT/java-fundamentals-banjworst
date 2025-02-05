@@ -21,15 +21,15 @@ public class Lab1 {
        for (int i = 0; i <= 4; i++) {
             System.out.println(i);
        }
+
+       //Exercise 5
+         greet("Alice");
+    }
+       public static void greet(String name){
+            System.out.println("Hello, " + name);
+       }
+
     }
     
-    //Exercise 5
-    public class Main{
-       public void greet(String name){
-            System.out.println("Hello,"+name);
-        }
-        public static void main(String[] args) {
-            greet("Alice");
-        }
-    }
-}
+    
+
