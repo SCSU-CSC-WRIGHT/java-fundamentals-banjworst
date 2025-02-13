@@ -24,12 +24,17 @@ public class Lab1 {
 
        //Exercise 5
          greet("Alice");
-    }
-       public static void greet(String name){
-            System.out.println("Hello, " + name);
-       }
 
+       // Exercise 6 
+       int[] numbers = {1, 2, 3, 4, 5};
+       for (int i : numbers) {
+            System.out.println(num);
+       }
     }
-    
-    
+
+    public static void greet(String name){
+        System.out.println("Hello, " + name);
+    }
+}
+
 
