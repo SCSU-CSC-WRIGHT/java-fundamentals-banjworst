@@ -27,13 +27,24 @@ public class Lab1 {
 
        // Exercise 6 
        int[] numbers = {1, 2, 3, 4, 5};
-       for (int i : numbers) {
+       for (int n : numbers) {
             System.out.println(num);
        }
     }
 
     public static void greet(String name){
         System.out.println("Hello, " + name);
+    }
+    int a = 10;
+    int b = 0;
+    public static void divide (int a, int b) {
+     try {
+          int result = a / b;
+          System.out.println("Result: " + result);
+     } catch (Exception e) {
+          System.out.println("Cannot divide by zero");
+
+     }
     }
 }
 
