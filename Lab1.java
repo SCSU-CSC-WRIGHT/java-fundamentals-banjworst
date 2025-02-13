@@ -6,7 +6,7 @@ public class Lab1 {
 
         //Exercise 2 
        int num = 10; 
-       String message = "The number is";
+       String message = "The number is ";
        System.out.println(message + num);
 
        //Exercise 3 
@@ -27,24 +27,21 @@ public class Lab1 {
 
        // Exercise 6 
        int[] numbers = {1, 2, 3, 4, 5};
-       for (int n : numbers) {
-            System.out.println(num);
+       for (int i : numbers) {
+            System.out.println(i);
+       }
+
+       // Exercise 8
+       try {
+            int result = 10 / 0;
+               System.out.println("Result: " + result);
+       } catch (Exception e) {
+            System.out.println("Error: Cannot dive by zero");
        }
     }
 
     public static void greet(String name){
         System.out.println("Hello, " + name);
-    }
-    int a = 10;
-    int b = 0;
-    public static void divide (int a, int b) {
-     try {
-          int result = a / b;
-          System.out.println("Result: " + result);
-     } catch (Exception e) {
-          System.out.println("Cannot divide by zero");
-
-     }
     }
 }
 
